@@ -42,6 +42,10 @@ class CampItems extends StatelessWidget {
           SizedBox(
             height: 10.0,
           ),
+          FlatButton(onPressed: (){}, child: Text('Open in Map')),
+          SizedBox(
+            height: 10.0,
+          ),
           RaisedButton(
               child: Text('Go Back'),
               onPressed: () {

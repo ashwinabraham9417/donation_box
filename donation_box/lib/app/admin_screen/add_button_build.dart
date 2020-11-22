@@ -1,23 +1,37 @@
 import 'package:flutter/material.dart';
+
 class AddButtonBuild extends StatelessWidget {
-  final nameController= TextEditingController();
+  final nameController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
       body: Card(
-
         child: Container(
           margin: EdgeInsets.all(16),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
               buildTextField('Enter Name'),
-              SizedBox(height: 10.0,),
+              SizedBox(
+                height: 10.0,
+              ),
               buildTextField('Enter Phone'),
-              SizedBox(height: 10.0,),
-              RaisedButton(onPressed: (){},child: Text('Register/Update'),)
-
+              SizedBox(
+                height: 10.0,
+              ),
+              buildTextField('Enter Email ID'),
+              SizedBox(
+                height: 10.0,
+              ),
+              buildTextField('Enter password'),
+              SizedBox(
+                height: 10.0,
+              ),
+              RaisedButton(
+                onPressed: () {},
+                child: Text('Register/Update'),
+              )
             ],
           ),
         ),
@@ -27,12 +41,8 @@ class AddButtonBuild extends StatelessWidget {
 
   TextField buildTextField(String text) {
     return TextField(
-          controller: nameController,
-          decoration: InputDecoration(
-            labelText: text
-          ),
-
-        );
+      //controller: nameController,
+      decoration: InputDecoration(labelText: text),
+    );
   }
 }
-
