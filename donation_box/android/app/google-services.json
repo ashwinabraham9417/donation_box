@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "42877875990",
+    "firebase_url": "https://donation-box-d70f1.firebaseio.com",
+    "project_id": "donation-box-d70f1",
+    "storage_bucket": "donation-box-d70f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42877875990:android:dab0f13ebba7c2fa2f4237",
+        "android_client_info": {
+          "package_name": "com.nellikans.donationbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42877875990-ssl502jtj8tdiaa4h555pnjjpjicvlbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nellikans.donationbox",
+            "certificate_hash": "e8fd5bd885e982eba1e231e104db0ac05264436d"
+          }
+        },
+        {
+          "client_id": "42877875990-d0dti3cmvc53iqmja493r3h5ndohrlv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXi6aj8NF2qIwXwz_k_ANROqY8_YszUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42877875990-d0dti3cmvc53iqmja493r3h5ndohrlv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
